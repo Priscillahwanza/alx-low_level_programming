@@ -11,9 +11,9 @@ int main(void)
 
 	for (c = 0; c < 9; c++)
 	{
-		putchar(p[c]);
+		_putchar(p[c]);
 	}
-	putchar('\n');
+	_putchar('\n');
 
 	return (0);
 }
