@@ -6,15 +6,14 @@
  */
 int main(void)
 {
-	int c;
-	char p[] = "_putchar";
-
-	for (c = 0; c < 9; c++)
-
-	{
-		_putchar(p[c]);
-	}
-
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 	_putchar('\n');
 
 	return (0);
